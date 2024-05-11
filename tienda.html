@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaginaDEVictor</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/petit');
+    </style>
+</head>
+
+<body>  
+    <div style="margin: 24px;">
+        <nav class="navbar navbar-light" style="background-color: aqua;">
+            <div class="container">
+                <a class="navbar-brand" href="pagina-de-victor.html" style="color: black; font-family: 'Petit', sans-serif;">INICIO</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">unidad 1</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                                <a class="dropdown-item" href="perfil.html">perfil</a><br>
+                                <a class="dropdown-item" href="prueva.html">calculadora</a><br>
+                                <a class="dropdown-item" href="tienda.html">tienda parte 1</a><br>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">unidad 2</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                                <a class="dropdown-item" href="tiendaAPedido.html">Tienda a Pedido</a><br>
+                                <a class="dropdown-item" href="json.html">json</a><br>
+                                <a class="dropdown-item" href="TiendaAPedidop2.html">Tienda pedido parte2</a><br>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">unidad 3</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                                <a class="dropdown-item" href="BaseDeDatos.html">Base de Datos</a><br>
+                                <a class="dropdown-item" href="peliculas.html">Peliculas</a><br>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--este dives los botonesde la pagina index.html-->
+    <div style="margin: 24px;">
+
+        <h1>Menu del restaurante</h1>
+        <style>
+            img{
+                width: 100px;
+                height: auto;
+            }
+            table,th,td{
+                border: 1px solis rgb(196, 76, 186);
+                text-align: left;
+                padding: 10px;
+            }
+            table{
+                width: 80%;
+                margin: 20px;
+                border-collapse: collapse;
+                box-shadow: 0 5px 15px rgb(0, 0,0);
+                margin-left: 50px;
+            }
+            tr:hover{
+                background-color: rgb(162, 0, 255);
+            }
+        </style>
+        <h1 style="font-family: Arial, Helvetica, sans-serif;">Bebidas</h1>
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Descripcion</th>
+                <th>Precios</th>
+                </tr>
+                <tr>
+                   <td>  <img src="tiendaimg/aguaDeSAbor.jpg" alt="agua de sabores con hielo">
+                 </td> 
+                
+                <td><p>Agua de sabor con hielo  </p></td>
+
+                <td>$25</td>
+                </tr>
+             <tr>
+              <td>  <img src="tiendaimg/aguaConHielo.jpg" alt="vaso de agua con hielo">
+            </td> 
+           
+           <td><p>vaso con agua y hielo </p></td>
+
+           <td>$15</td>
+           </tr>
+           <tr>
+           <td>  <img src="tiendaimg/cerveza.jpeg" alt="cerveza">
+           </td> 
+          
+          <td><p>botella de cerveza </p></td>
+
+          <td>$70</td>
+          </tr>
+          <tr>
+          <td>  <img src="tiendaimg/teDeLimon.jpg" alt="te de limon">
+          </td> 
+         
+         <td><p> te de limon   </p></td>
+
+         <td>$20</td>
+         </tr>
+         <tr>
+         <td>  <img src="tiendaimg/vasoCoca.jpg" alt="coca ">
+         </td> 
+        
+        <td><p>vaso de Coca Cola con hielo  </p></td>
+
+        <td>$20</td>
+            
+            </tr>
+            
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Descripcion</th>
+                <th>Precios</th>
+                </tr>
+                <tr>
+                   <td> <img src="tiendaimg/chilaquilesVerdes.jpg" alt="chilaquiles verdes">
+                 </td> 
+                
+                <td><p>chilaquiles en salsa verde  </p></td>
+
+                <td>$45</td>
+                </tr>
+              <td>  <img src="tiendaimg/emparedadosConJamonYQueso.jpeg" alt="emparedados">
+            </td> 
+           
+           <td><p>Emparedado con jamon y queso </p></td>
+
+           <td>$35</td>
+        </tr>
+           <td>  <img src="tiendaimg/pancakes.jpeg" alt="pancakes">  
+
+           </td> 
+          
+          <td><p>pancakes con miel de maple </p></td>
+
+          <td>$40</td>
+          </tr>
+          <tr>
+          <td>  <img src="tiendaimg/sopaDeVegetales.jpeg" alt="sopa de vegetales ">
+        </td> 
+         
+         <td><p>tazon de sopa con vegetales </p></td>
+
+         <td>$30</td>
+         </tr>
+         <tr>
+         <td>  <img src="tiendaimg/tostadas.jpeg" alt="tostadas ">   </td> 
+        
+        <td><p>platillo de cuatro tostadas   </p></td>
+
+        <td>$30</td>
+            
+            </tr>
+            <tr>
+                <td>    <img src="tiendaimg/avenaConFrutos.jpeg" alt="avena">
+                </td> 
+               
+               <td><p>avena con frutos rojos.  </p></td>
+       
+               <td>$30</td>
+                   
+                   </tr>
+                   <h1 style="font-family: Arial, Helvetica, sans-serif;">Desayunos</h1>
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Descripcion</th>
+                <th>Precios</th>
+                </tr>
+                <tr>
+                   <td> <img src="tiendaimg/brochetas.jpg" alt="brochetas">
+                 </td> 
+                
+                <td><p>brochetas de carne y verduras</p></td>
+
+                <td>$40</td>
+                </tr>
+             <tr>
+              <td>  <img src="tiendaimg/nachos.jpeg" alt="nachos">
+            </td> 
+           
+           <td><p>Nachos</p></td>
+
+           <td>$30</td>
+           </tr>
+           <tr>
+           <td>  <img src="tiendaimg/croquetasDeJamon.jpg"   alt="croquetas">
+           </td> 
+          
+          <td><p>croquetas de jamon con queso </p></td>
+
+          <td>$40</td>
+          </tr>
+          <tr>
+          <td>  <img src="tiendaimg/tostadasDeCeviche.jpg"    alt="ceviche">
+          </td> 
+         
+         <td><p>tostadas con ceviche</p></td>
+
+         <td>$48</td>
+         </tr>
+         <tr>
+         <td>  <img src="tiendaimg/camaronesConTempura.jpg"    alt="camarones">
+         </td> 
+        
+        <td><p>camarones con tempura </p></td>
+
+        <td>$30</td>
+            
+            </tr>
+            <tr>
+                <td>  <img src="tiendaimg/chileJalapeñosConQueso.jpg"    alt="chile con queso ">
+                </td> 
+               
+               <td><p>jalapeños rellenos de queso </p></td>
+       
+               <td>$30</td>
+                   
+                   </tr>
+                    <h1 style="font-family: Arial, Helvetica, sans-serif;">Aperitivos</h1>
+                   <table>
+                       <tr>
+                           <th>Imagen</th>
+                           <th>Descripcion</th>
+                           <th>Precios</th>
+                           </tr>
+                           <tr>
+                              <td>  <img src="tiendaimg/enchilasRojas.jpg"    alt="enchiladas ">
+                            </td> 
+                           
+                           <td><p>enchiladas rojas</p></td>
+           
+                           <td>$80</td>
+                           </tr>
+                        <tr>
+                         <td>  <img src="tiendaimg/paella.jpg"   alt="paella">
+                       </td> 
+                      
+                      <td><p>plato de paella  </p></td>
+           
+                      <td>$55</td>
+                      </tr>
+                      <tr>
+                      <td>  <img src="tiendaimg/rollosDeSushi.jpg"   alt="rollosDeSushi">
+                      </td> 
+                     
+                     <td><p>rollos de sushi</p></td>
+           
+                     <td>$30</td>
+                     </tr>
+                     <tr>
+                     <td>  <img src="tiendaimg/lasaña.jpg"    alt="lasaña">
+                     </td> 
+                    
+                    <td><p>plato de lasaña</p></td>
+           
+                    <td>$80</td>
+                    </tr>
+                    <tr>
+                    <td>  <img src="tiendaimg/tacosDePasstor.jpg"    alt=" tacosDePasstor">
+                    </td> 
+                   
+                   <td><p>orden de tacos de pastor</p></td>
+           
+                   <td>$60</td>
+                       
+                       </tr>
+                       <tr>
+                           <td>  <img src="tiendaimg/polloALaParmesana.jpeg"    alt="polloALaParmesana">
+                           </td> 
+                          
+                          <td><p>plato de pollo a la parmesana</p></td>
+                  
+                          <td>$70</td>
+                              
+                              </tr>
+                             <h1 style="font-family: Arial, Helvetica, sans-serif;">Platillos fuertes</h1>
+                            <table>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Descripcion</th>
+                                    <th>Precios</th>
+                                    </tr>
+                                    <tr>
+                                       <td>  <img src="tiendaimg/tartaDeLimon.jpeg"    alt="tarta de limon ">
+                                     </td> 
+                                    
+                                    <td><p>tarta de manzana</p></td>
+                    
+                                    <td>$50</td>
+                                    </tr>
+                                 <tr>
+                                  <td>  <img src="tiendaimg/tartaDeManzana.jpeg"   alt="tarta de manzana">
+                                </td> 
+                               
+                               <td><p>tarta de limon </p></td>
+                    
+                               <td>$45</td>
+                               </tr>
+                               <tr>
+                               <td>  <img src="tiendaimg/brownies.jpg"   alt="brownies">
+                               </td> 
+                              
+                              <td><p>brownies</p></td>
+                    
+                              <td>$70</td>
+                              </tr>
+                              <tr>
+                              <td>  <img src="tiendaimg/heladoDESabores.jpg"    alt="helado">
+                              </td> 
+                             
+                             <td><p>helados de sabores</p></td>
+                    
+                             <td>$15</td>
+                             </tr>
+                             <tr>
+                             <td>  <img src="tiendaimg/crepaDEFresaYPlatano.jpg"    alt="crepa">
+                             </td> 
+                            
+                            <td><p>crepa de fresa con plantano</p></td>
+                    
+                            <td>$50</td>
+                                
+                                </tr>
+                                <tr>
+                                    <td>  <img src="tiendaimg/flan.jpg"    alt="flan">
+                                    </td> 
+                                   
+                                   <td><p>flan</p></td>
+                           
+                                   <td>$50</td>
+                                       
+                                       </tr>
+                                       <h1 style="font-family: Arial, Helvetica, sans-serif;">Postres</h1>
+                                       
+         
+
+        </table>
+    </div>
+    
+</body>
+</html>

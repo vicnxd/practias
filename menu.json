@@ -1,0 +1,191 @@
+"items"{
+    {
+     "category":"Desayunos",
+      "items":{
+        "name":"chilaquiles "      ,
+        "Descripcion":"platillo de chilaquiles en salsa verde"     ,
+        "price":"$45"      ,
+        "image": ""    ,
+
+        "name": "Emparedados"   ,
+        "Descripcion":"emparedasos de jamon con queso"     ,
+        "price": "$35"     ,
+        "image":    ,
+
+        "name": "pancakes"     ,
+        "Descripcion":  "pancakes acompañados de miel de maple"  ,
+        "price":"$40"      ,
+        "image":    ,
+
+        "name":"sopa de vegetales"      ,
+        "Descripcion":"tazon de sopa de vegetales"     ,
+        "price":"$30"      ,
+        "image":    ,
+        
+        
+        "name": "tostadas"     ,
+        "Descripcion":"platillo de cuatro tostadas"  ,
+        "price": "$30"     ,
+        "image":    ,
+        
+        
+        "name":  "yogurt con frutos"    ,
+        "Descripcion":" tazon de yogurt con frutos rojos"     ,
+        "price":"30"      ,
+        "image":    ,
+        
+    }
+
+      
+
+    }
+    
+    {
+    "category":"almuerzos",
+    "items":{
+      "name":"enchiladas rojas"      ,
+      "Descripcion": "paltillo de enchiladas con media crema"    ,
+      "price":  "$80"    ,
+      "image":    ,
+
+      "name":  "paeya "    ,
+      "Descripcion":  "platillo de paeya"   ,
+      "price":   "55"   ,
+      "image":    ,
+
+      "name":   "sushi"   ,
+      "Descripcion":  "platillo de 8 rollos de sushi"   ,
+      "price":    "$30"  ,
+      "image":    ,
+
+      
+      "name":  "lasaña"    ,
+      "Descripcion":  "platillo de lasaña"   ,
+      "price":  "$80"    ,
+      "image":    ,
+      
+      
+      "name":   "tacos de pastor"   ,
+      "Descripcion":  "orden de tres tacos de pastor"   ,
+      "price":   "$60"   ,
+      "image":    ,
+      
+      
+      "name": "pollo a la parmesana"     ,
+      "Descripcion":   "paltillo de pollo a la parmesana"  ,
+      "price":  "$70"    ,
+      "image":    ,
+      
+    }
+ }
+ 
+{
+ "category":"Aperitivos",
+ "items":{
+   "name":  "brochetas "    ,
+   "Descripcion": "tres brochetas de carne con verduras"    ,
+   "price":    "$40"  ,
+   "image":    ,
+
+   "name":  "nachos"    ,
+   "Descripcion":  "tazon de nachos"   ,
+   "price":  "$30"    ,
+   "image":    ,
+
+   "name":  "croquetas"    ,
+   "Descripcion":  "cuatro croquetas relllenas de jamon y queso"   ,
+   "price":  "$40"    ,
+   "image":    ,
+
+   
+   "name":  "ceviche"    ,
+   "Descripcion":   "tostadas de ceviche "  ,
+   "price":  "$48"    ,
+   "image":    ,
+   
+   
+   "name": "camarones"     ,
+   "Descripcion": "platillo de camarones con tempura"    ,
+   "price":  "$30"    ,
+   "image":    ,
+   
+   
+   "name":   "jalapeños"   ,
+   "Descripcion":  "jalapeños empanizados rellenos de queso"   ,
+   "price": "$30"    ,
+   "image":    ,
+   
+ }
+{ 
+ "category":"postres",
+ "items":{
+   "name": "pay de manzana"     ,
+   "Descripcion": "tarta de manzana"    ,
+   "price": "$50"     ,
+   "image":    ,
+
+   "name":  "pay de limon"    ,
+   "Descripcion": "trata de limon"    ,
+   "price":  "$45"    ,
+   "image":    ,
+
+   "name":  "brownies "    ,
+   "Descripcion":  "tres brownies de chocolate"   ,
+   "price": "$70"     ,
+   "image":    ,
+
+   
+   "name": "helado"     ,
+   "Descripcion": "cono de helado"    ,
+   "price":  "$15"    ,
+   "image":    ,
+   
+   
+   "name": "crepa"     ,
+   "Descripcion": "crepa de platano con fresa"    ,
+   "price": "$50"     ,
+   "image":    ,
+   
+   
+   "name":    "flan"  ,
+   "Descripcion":  "flan mediano"   ,
+   "price":   "$50"   ,
+   "image":    ,
+   
+ }
+
+}
+{  
+"category":"bebidas",
+"items":{
+  "name": "agua de sabor "     ,
+  "Descripcion":   "agua de litro  de sabor con hielo"  ,
+  "price": "$25"     ,
+  "image":    ,
+
+  "name":  "agua "    ,
+  "Descripcion": "agua natural  con hielo"    ,
+  "price":  "$15"    ,
+  "image":    ,
+
+  "name":  "cerveza"    ,
+  "Descripcion":   "botella de cerveza"  ,
+  "price":  "$70"    ,
+  "image":    ,
+
+  
+  "name":"te de limon"      ,
+  "Descripcion":  "taza de te de limon"   ,
+  "price":  "$20"    ,
+  "image":    ,
+  
+  
+  "name":  "coca-cola"    ,
+  "Descripcion": "vaso de coca-cola con hielo"    ,
+  "price":    "$20"  ,
+  "image":    ,
+  
+}
+
+ }
+ }
